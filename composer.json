@@ -1,0 +1,22 @@
+{
+    "name": "arcticdish/yser",
+    "type": "php-extensions",
+    "description": "PHP component library(PHP组件库)",
+    "keywords": ["php","extensions","thinkphp"],
+    "homepage": "https://github.com/sakuraos/yser",
+    "authors": [
+        {
+            "name": "北极菜",
+            "email": "15821003@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yser\\": "src"
+        }
+    }
+}
